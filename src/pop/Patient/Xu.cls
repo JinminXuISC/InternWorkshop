@@ -6,6 +6,8 @@ Class pop.Patient.Xu Extends (%Persistent, %Populate) [ DdlAllowed ]
 
     Property PhoneNum As %Integer(POPSPEC = ".GenerateRandomMobileNumber()");
 
+    Property PostCode As %Integer;
+
     ClassMethod GenerateRandomMobileNumber() As %Integer
     {
             //Set countryCode = "+61"  
