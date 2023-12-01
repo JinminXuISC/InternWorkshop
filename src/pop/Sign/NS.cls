@@ -1,5 +1,6 @@
 Class InternWorkshop.src.pop.Sign.NS Extends %RegisteredObject
 {
-    //1235
+
+    //testing conflict
     property test as %String;
 }
