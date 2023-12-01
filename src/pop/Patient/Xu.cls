@@ -7,6 +7,7 @@ Class pop.Patient.Xu Extends (%Persistent, %Populate) [ DdlAllowed ]
     Property PhoneNum As %Integer(POPSPEC = ".GenerateRandomMobileNumber()");
 
     Property PostCode As %Integer;
+    //test
 
     ClassMethod GenerateRandomMobileNumber() As %Integer
     {
