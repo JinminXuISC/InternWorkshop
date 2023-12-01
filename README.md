@@ -5,10 +5,11 @@ This repo is for 2024 InterSystems Interns to go through "git source control ses
 
 ## Steps
 1) Clone this Repository to your local machine.
-2) Connect to your local IRIS instance.
-3) Import ```pop.Patient.<your name>.cls ``` to IRIS.
-4) Check Out.
-5) Check In.
-6) Pull & Sync.
-7) Create a new classfile (.cls) under ```src/pop/Sign```.
-8) Check in & Pull the latest update.
+2) Create your Github branch
+3) Connect to your local IRIS instance.
+4) Import ```pop.Patient.<your name>.cls ``` to IRIS.
+5) Check Out.
+6) Check In.
+7) Pull & Sync.
+8) Create a new classfile (.cls) under ```src/pop/Sign```.
+9) Check in & Pull the latest update. 
