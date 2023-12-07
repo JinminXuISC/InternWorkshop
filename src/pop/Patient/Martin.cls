@@ -6,6 +6,8 @@ Class pop.Patient.Martin Extends (%Persistent, %Populate) [ DdlAllowed ]
 
     Property PhoneNum As %Integer(POPSPEC = ".GenerateRandomMobileNumber()");
 
+    Property Hobby As %String;
+
     ClassMethod GenerateRandomMobileNumber() As %Integer
     {
             //Set countryCode = "+61"  
