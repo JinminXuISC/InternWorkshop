@@ -7,6 +7,10 @@ Property Age As %Integer(MAXVAL = 90, MINVAL = 1);
 
 Property PhoneNum As %Integer(POPSPEC = ".GenerateRandomMobileNumber()");
 
+// My Change
+
+Property Gender As %String;
+
 ClassMethod GenerateRandomMobileNumber() As %Integer
 {
             //Set countryCode = "+61"  
@@ -32,6 +36,9 @@ Storage Default
 </Value>
 <Value name="4">
 <Value>PhoneNum</Value>
+</Value>
+<Value name="5">
+<Value>Gender</Value>
 </Value>
 </Data>
 <DataLocation>^pop.Patient.AndrewD</DataLocation>

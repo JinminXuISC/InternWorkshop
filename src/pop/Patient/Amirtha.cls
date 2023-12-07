@@ -5,12 +5,17 @@ Property Name As %String;
 
 Property Age As %Integer(MAXVAL = 90, MINVAL = 1);
 
+Property Location As %String;
+
+// Added Location
+
 Property PhoneNum As %Integer(POPSPEC = ".GenerateRandomMobileNumber()");
 
 ClassMethod GenerateRandomMobileNumber() As %Integer
 {
             //Set countryCode = "+61"  
-            Set areaCode = "04"
+            Set areaCode = "432"
+            //changed areacode
             Set firstPart = $RANDOM(900) + 100
             Set secondPart = $RANDOM(90000) + 10000
             Set randomMobileNumber =  areaCode _ firstPart _ secondPart
@@ -31,6 +36,9 @@ Storage Default
 <Value>Age</Value>
 </Value>
 <Value name="4">
+<Value>Location</Value>
+</Value>
+<Value name="5">
 <Value>PhoneNum</Value>
 </Value>
 </Data>

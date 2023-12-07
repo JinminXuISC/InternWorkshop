@@ -9,7 +9,7 @@ Property PhoneNum As %Integer(POPSPEC = ".GenerateRandomMobileNumber()");
 
 Property PostCode As %Integer;
 
-// test123456
+// test1234567
 
 ClassMethod GenerateRandomMobileNumber() As %Integer
 {

@@ -5,6 +5,10 @@ Property Name As %String;
 
 Property Age As %Integer(MAXVAL = 90, MINVAL = 1);
 
+// Added gender property for patient
+
+Property Gender As %String;
+
 Property PhoneNum As %Integer(POPSPEC = ".GenerateRandomMobileNumber()");
 
 ClassMethod GenerateRandomMobileNumber() As %Integer
@@ -31,6 +35,9 @@ Storage Default
 <Value>Age</Value>
 </Value>
 <Value name="4">
+<Value>Gender</Value>
+</Value>
+<Value name="5">
 <Value>PhoneNum</Value>
 </Value>
 </Data>

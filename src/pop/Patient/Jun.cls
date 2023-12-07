@@ -1,11 +1,18 @@
 Class pop.Patient.Jun Extends (%Persistent, %Populate) [ DdlAllowed ]
 {
-
-Property Name As %String;
+    Property Name As %String [ Required ];
 
 Property Age As %Integer(MAXVAL = 90, MINVAL = 1);
 
-Property PhoneNum As %Integer(POPSPEC = ".GenerateRandomMobileNumber()");
+    Property PhoneNum As %Integer(POPSPEC = ".GenerateRandomMobileNumber()");
+
+    Property Gender As %String;
+
+    Property Pronoun As %String;
+
+    ClassMethod PrintPatientInfo() As %Status {
+        
+    }
 
 ClassMethod GenerateRandomMobileNumber() As %Integer
 {
