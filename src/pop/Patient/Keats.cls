@@ -4,6 +4,9 @@ Class pop.Patient.Keats Extends (%Persistent, %Populate) [ DdlAllowed ]
 
     Property Age As %Integer(MAXVAL = 90, MINVAL = 1);
 
+    // Added gender property for patient
+    Property Gender as %String;
+
     Property PhoneNum As %Integer(POPSPEC = ".GenerateRandomMobileNumber()");
 
     ClassMethod GenerateRandomMobileNumber() As %Integer
