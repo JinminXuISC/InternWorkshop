@@ -1,4 +1,4 @@
-Class pop.Sign.Xu Extends (%Persistent, %Populate) [ DdlAllowed ]
+Class InternWorkshop.src.pop.Sign.Poopy Extends (%Persistent, %Populate) [ DdlAllowed ]
 {
 
 Property HeartRate As %Integer(MAXVAL = 140, MINVAL = 60);
@@ -18,7 +18,7 @@ ClassMethod GenerateCollectTime()
 
 Storage Default
 {
-<Data name="XuDefaultData">
+<Data name="PoopyDefaultData">
 <Value name="1">
 <Value>%%CLASSNAME</Value>
 </Value>
@@ -29,11 +29,11 @@ Storage Default
 <Value>CollectedTime</Value>
 </Value>
 </Data>
-<DataLocation>^pop.Sign.XuD</DataLocation>
-<DefaultData>XuDefaultData</DefaultData>
-<IdLocation>^pop.Sign.XuD</IdLocation>
-<IndexLocation>^pop.Sign.XuI</IndexLocation>
-<StreamLocation>^pop.Sign.XuS</StreamLocation>
+<DataLocation>^InternWorkshop.src.p5070.PoopyD</DataLocation>
+<DefaultData>PoopyDefaultData</DefaultData>
+<IdLocation>^InternWorkshop.src.p5070.PoopyD</IdLocation>
+<IndexLocation>^InternWorkshop.src.p5070.PoopyI</IndexLocation>
+<StreamLocation>^InternWorkshop.src.p5070.PoopyS</StreamLocation>
 <Type>%Storage.Persistent</Type>
 }
 

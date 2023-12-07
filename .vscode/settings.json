@@ -1,0 +1,11 @@
+{
+    "objectscript.conn": {
+<<<<<<< HEAD
+        "server": "irishealth1",
+=======
+        "server": "irishealth",
+>>>>>>> 0c6289a6c89d0cccb99fd09d4e19c52c7cefbc0e
+        "ns": "USER",
+        "active": true
+    }
+}
